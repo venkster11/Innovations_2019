@@ -11,4 +11,5 @@
     <string name="button_Filedcomplaint">Complaints Filed</string>
     <string name="button_Complaintstatus">Complaint Status</string>
     <string name="title_activity_police_main_page">Police_main_page</string>
+    <string name="button_complaints_received">Complaints Received</string>
 </resources>

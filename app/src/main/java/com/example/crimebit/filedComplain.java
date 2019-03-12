@@ -18,7 +18,7 @@ public class filedComplain extends AppCompatActivity {
         String message = intent.getStringExtra("Extra_Message");
         TextView textView = (findViewById(R.id.display_message));
 
-        textView.setText("Subject is " + message);
+        textView.setText(message);
     }
 
 

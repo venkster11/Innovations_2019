@@ -46,7 +46,7 @@ public class VictimLogin extends AppCompatActivity {
         }
         else if((userName.equals("admin") && userPassword.equals("admin")))
         {
-            Intent intent = new Intent(VictimLogin.this,Option.class);
+            Intent intent = new Intent(VictimLogin.this,Police_final_main.class);
             //Intent is used to move from one activity to another
             startActivity(intent);
         }
