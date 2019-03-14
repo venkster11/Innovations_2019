@@ -5,7 +5,7 @@
     android:id="@+id/constraint"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fileComplaint">
+    tools:context=".VICTIM.fileComplaint">
 
 
     <TextView
@@ -83,13 +83,13 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:text="complaints"
-        app:layout_constraintBottom_toTopOf="@+id/button_1"
+        app:layout_constraintBottom_toTopOf="@+id/bt"
         app:layout_constraintLeft_toLeftOf="parent"
 
         app:layout_constraintTop_toBottomOf="@+id/adharno" />
 
     <android.support.v7.widget.AppCompatButton
-        android:id="@+id/button_1"
+        android:id="@+id/bt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="155dp"
@@ -114,7 +114,7 @@
     </Spinner>
 
     <EditText
-        android:id="@+id/Subject_edit"
+        android:id="@+id/et"
         android:layout_width="214dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="92dp"
@@ -188,7 +188,7 @@
         app:layout_constraintVertical_bias="0.043" />
 
     <EditText
-        android:id="@+id/editText9"
+        android:id="@+id/et2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"

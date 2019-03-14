@@ -1,7 +1,9 @@
-package com.example.crimebit;
+package com.example.crimebit.POLICE;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.crimebit.R;
 
 public class Option extends AppCompatActivity {
 

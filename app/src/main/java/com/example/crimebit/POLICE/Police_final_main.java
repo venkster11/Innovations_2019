@@ -1,9 +1,12 @@
-package com.example.crimebit;
+package com.example.crimebit.POLICE;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+
+import com.example.crimebit.R;
+import com.example.crimebit.VICTIM.filedComplain;
 
 public class Police_final_main extends AppCompatActivity {
 
@@ -15,7 +18,7 @@ public class Police_final_main extends AppCompatActivity {
     }
 
     public void comp_recived(View view) {
-        Intent intent=new Intent(this,filedComplain.class);
+        Intent intent=new Intent(this, filedComplain.class);
         startActivity(intent);
     }
 }

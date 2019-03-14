@@ -1,4 +1,4 @@
-package com.example.crimebit;
+package com.example.crimebit.VICTIM;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,6 +7,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import com.example.crimebit.POLICE.Police_final_main;
+import com.example.crimebit.R;
 
 public class VictimLogin extends AppCompatActivity {
     private EditText name;
@@ -40,13 +43,13 @@ public class VictimLogin extends AppCompatActivity {
     {
         if((userName.equals("admin") && userPassword.equals("12345")))
         {
-            Intent intent = new Intent(VictimLogin.this,Victim_main_page.class);
+            Intent intent = new Intent(VictimLogin.this, Victim_main_page.class);
             //Intent is used to move from one activity to another
             startActivity(intent);
         }
         else if((userName.equals("admin") && userPassword.equals("admin")))
         {
-            Intent intent = new Intent(VictimLogin.this,Police_final_main.class);
+            Intent intent = new Intent(VictimLogin.this, Police_final_main.class);
             //Intent is used to move from one activity to another
             startActivity(intent);
         }

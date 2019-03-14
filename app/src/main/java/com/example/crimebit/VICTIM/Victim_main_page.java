@@ -1,10 +1,13 @@
-package com.example.crimebit;
+package com.example.crimebit.VICTIM;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import com.example.crimebit.POLICE.Option;
+import com.example.crimebit.R;
 
 public class Victim_main_page extends AppCompatActivity {
 
@@ -22,7 +25,7 @@ public class Victim_main_page extends AppCompatActivity {
         fileComplaint.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(Victim_main_page.this,fileComplaint.class);
+                Intent i=new Intent(Victim_main_page.this, com.example.crimebit.VICTIM.fileComplaint.class);
 
                 startActivity(i);
             }
@@ -31,7 +34,7 @@ public class Victim_main_page extends AppCompatActivity {
         filedComplaint.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(Victim_main_page.this,filedComplain.class);
+                Intent i=new Intent(Victim_main_page.this, filedComplain.class);
 
                 startActivity(i);
             }
@@ -40,7 +43,7 @@ public class Victim_main_page extends AppCompatActivity {
         complaintStatus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(Victim_main_page.this,fileComplaint.class);
+                Intent i=new Intent(Victim_main_page.this, Option.class);
 
                 startActivity(i);
             }

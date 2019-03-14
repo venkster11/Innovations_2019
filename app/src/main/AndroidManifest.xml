@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.crimebit">
-
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,16 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Police_final_main"></activity>
+        <activity android:name=".POLICE.Police_final_main"></activity>
         <activity
-            android:name=".Police_main_page"
+            android:name=".POLICE.Police_main_page"
             android:label="@string/title_activity_police_main_page"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".filedComplain" />
-        <activity android:name=".fileComplaint" />
-        <activity android:name=".Victim_main_page" />
-        <activity android:name=".Option" />
-        <activity android:name=".VictimLogin" />
+        <activity android:name=".VICTIM.filedComplain" />
+        <activity android:name=".VICTIM.fileComplaint" />
+        <activity android:name=".VICTIM.Victim_main_page" />
+        <activity android:name=".POLICE.Option" />
+        <activity android:name=".VICTIM.VictimLogin" />
         <activity android:name=".Victim_Login" />
         <activity android:name=".MainActivity">
             <intent-filter>
