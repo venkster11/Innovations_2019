@@ -12,20 +12,24 @@
         android:id="@+id/policetext"
         android:layout_width="wrap_content"
         android:layout_height="21dp"
-        android:layout_marginLeft="16dp"
-        android:text="Near police Station"
+        android:layout_marginLeft="4dp"
+        android:text="Nearby police Station:"
+        android:textSize="16sp"
+
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/subjectText"
         app:layout_constraintLeft_toLeftOf="parent"
-
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/subjectText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:text="subject"
+        android:layout_marginLeft="8dp"
+        android:text="Subject:"
 
+        android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/nametext"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/policetext" />
@@ -34,9 +38,11 @@
         android:id="@+id/nametext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:text="name:"
+        android:layout_marginLeft="8dp"
+        android:text="Name:"
 
+        android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/emailtext"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/subjectText" />
@@ -45,10 +51,12 @@
         android:id="@+id/emailtext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:text="email :"
-        app:layout_constraintBottom_toTopOf="@+id/address"
+        android:layout_marginLeft="8dp"
+        android:text="Email :"
+        android:textSize="16sp"
 
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/address"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nametext" />
 
@@ -57,10 +65,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="21dp"
-        android:layout_marginEnd="80dp"
-        android:layout_marginRight="80dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginRight="92dp"
 
-        android:text="address"
+        android:text="Address:"
+        android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@id/adharno"
         app:layout_constraintEnd_toStartOf="@+id/editText7"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -70,10 +80,12 @@
         android:id="@+id/adharno"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:text="adhar no"
-        app:layout_constraintBottom_toTopOf="@+id/complaint"
+        android:layout_marginLeft="4dp"
+        android:text="Adhaar no:"
+        android:textSize="16sp"
 
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/complaint"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/address" />
 
@@ -81,11 +93,13 @@
         android:id="@+id/complaint"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:text="complaints"
+        android:layout_marginLeft="4dp"
+        android:text="Complaint:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+
         app:layout_constraintBottom_toTopOf="@+id/bt"
         app:layout_constraintLeft_toLeftOf="parent"
-
         app:layout_constraintTop_toBottomOf="@+id/adharno" />
 
     <android.support.v7.widget.AppCompatButton
@@ -93,9 +107,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="155dp"
+        android:background="@color/colorPrimary"
         android:onClick="sendMessage"
-        android:text="REGISTER"
 
+        android:text="REGISTER"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/complaint" />
@@ -117,26 +132,26 @@
         android:id="@+id/et"
         android:layout_width="214dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="92dp"
-        android:layout_marginLeft="92dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginLeft="96dp"
+        android:layout_marginTop="28dp"
         app:layout_constraintStart_toEndOf="@+id/subjectText"
         app:layout_constraintTop_toBottomOf="@+id/Spinnerid" />
 
     <EditText
         android:id="@+id/name_edit"
-        android:layout_width="204dp"
+        android:layout_width="213dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
 
-        app:layout_constraintHorizontal_bias="0.736"
+        app:layout_constraintHorizontal_bias="0.762"
         app:layout_constraintLeft_toRightOf="@+id/nametext"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/subjectText" />
 
     <EditText
         android:id="@+id/editText6"
-        android:layout_width="216dp"
+        android:layout_width="211dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
@@ -158,15 +173,15 @@
         android:layout_width="212dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
         android:layout_marginBottom="8dp"
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText6"
-        app:layout_constraintVertical_bias="0.002" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <EditText
         android:id="@+id/editText8"

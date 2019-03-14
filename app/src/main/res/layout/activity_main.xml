@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorAccent"
     tools:context=".MainActivity">
 
     <Button
@@ -16,7 +17,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:background="@android:color/holo_blue_bright"
+        android:background="@color/colorPrimary"
 
         android:text="@string/button_Victim"
         android:textColor="@android:color/white"
@@ -40,7 +41,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:background="@android:color/holo_blue_bright"
+        android:background="@color/colorPrimary"
         android:text="@string/button_Police"
         android:textColor="@android:color/white"
         android:textSize="20sp"

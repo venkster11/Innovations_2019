@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorAccent"
     tools:context=".VICTIM.Victim_main_page">
 
     <Button
@@ -15,7 +16,7 @@
         android:layout_marginTop="84dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:background="@android:color/holo_green_light"
+        android:background="@color/colorPrimary"
         android:text="@string/button_FileComplaint"
         android:textColor="@android:color/white"
         android:textSize="20sp"
@@ -35,7 +36,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:background="@android:color/holo_green_light"
+        android:background="@color/colorPrimary"
         android:text="@string/button_Filedcomplaint"
         android:textColor="@android:color/white"
         android:textSize="20sp"
@@ -57,7 +58,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:background="@android:color/holo_green_light"
+        android:background="@color/colorPrimary"
         android:text="@string/button_Complaintstatus"
         android:textColor="@android:color/white"
         android:textSize="20sp"
