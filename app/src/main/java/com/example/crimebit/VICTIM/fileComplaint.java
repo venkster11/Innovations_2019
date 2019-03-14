@@ -24,7 +24,7 @@ public class fileComplaint extends AppCompatActivity {
         Firebase.setAndroidContext(this);
         setContentView(R.layout.activity_file_complaint);
         spinner=(Spinner)findViewById(R.id.Spinnerid);
-        String[] stations={"Nerul","Thane","Mulund","Dadar","Bhandup","Belapur"};
+        String[] stations={"Nerul","Belapur","Thane","Mulund","Bhandup","Dadar"};
         ArrayAdapter<String> adapter=new ArrayAdapter<String>(this,android.R.layout.simple_spinner_dropdown_item,stations);
         spinner.setAdapter(adapter);
 

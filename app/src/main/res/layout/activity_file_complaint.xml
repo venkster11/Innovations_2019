@@ -65,8 +65,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="21dp"
-        android:layout_marginEnd="92dp"
-        android:layout_marginRight="92dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
 
         android:text="Address:"
         android:textSize="16sp"
@@ -111,6 +111,7 @@
         android:onClick="sendMessage"
 
         android:text="REGISTER"
+        android:textColor="@color/colorAccent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/complaint" />
@@ -132,8 +133,8 @@
         android:id="@+id/et"
         android:layout_width="214dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="96dp"
-        android:layout_marginLeft="96dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginLeft="76dp"
         android:layout_marginTop="28dp"
         app:layout_constraintStart_toEndOf="@+id/subjectText"
         app:layout_constraintTop_toBottomOf="@+id/Spinnerid" />
@@ -197,10 +198,10 @@
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.753"
+        app:layout_constraintHorizontal_bias="0.732"
         app:layout_constraintStart_toEndOf="@+id/adharno"
         app:layout_constraintTop_toBottomOf="@+id/editText7"
-        app:layout_constraintVertical_bias="0.043" />
+        app:layout_constraintVertical_bias="0.041" />
 
     <EditText
         android:id="@+id/et2"
